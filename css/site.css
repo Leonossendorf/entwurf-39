@@ -140,7 +140,8 @@ h3{font-size:1.3rem;line-height:1.25;font-weight:600}
 .wege a:hover strong{color:var(--blau)}
 .wege{border-bottom:1px solid var(--linie)}
 @media (max-width:900px){
-  .wege ul{grid-template-columns:1fr 1fr}
+  .wege ul{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .wege a strong{hyphens:auto;overflow-wrap:anywhere}
   .wege li + li{border-left:0}
   .wege li:nth-child(even){border-left:1px solid var(--linie)}
   .wege li:nth-child(n+3){border-top:1px solid var(--linie)}
