@@ -1,1 +1,361 @@
-<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Entwurf in Arbeit</title></head><body><p>Entwurf in Arbeit.</p></body></html>
+<!doctype html>
+<html lang="de-DE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Gethke Glas Gronau: Isolierglas und Flachglas nach Maß (Entwurf)</title>
+<meta name="description" content="Unverbindlicher Entwurf für die Gethke Glas Gronau GmbH: Flachglas-Großhandel und Isolierglas-Fertigung in Gronau.">
+<link rel="preload" href="fonts/barlow-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/barlow-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/site.css?v=1">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<script>window.STAND="2026-11-10-1";</script>
+</head>
+<body>
+<a class="sprung" href="#inhalt">Zum Inhalt springen</a>
+
+<header class="kopf">
+  <div class="innen kopf__innen">
+    <a class="kopf__logo" href="./" aria-label="Gethke Glas Gronau, Startseite"><img src="img/logo-gethke.png" width="1080" height="350" alt="Gethke Glas Gronau GmbH"></a>
+    <button class="kopf__menue" type="button" aria-expanded="false" aria-controls="hauptnav"><span aria-hidden="true"></span>Menü</button>
+    <nav class="kopf__nav" id="hauptnav" aria-label="Hauptmenü">
+      <ul>
+        <li><a href="#produkte">Produkte</a></li>
+        <li><a href="#leistung">Fertigung</a></li>
+        <li><a href="#lieferung">Lieferung</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="karriere.html">Karriere</a></li>
+        <li><a href="#anfrage">Anfrage</a></li>
+      </ul>
+    </nav>
+    <a class="kopf__tel" href="tel:+49256270060" aria-label="Anrufen: 02562 7006-0">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+      <span class="zahl">02562 7006-0</span>
+    </a>
+  </div>
+</header>
+
+<main id="inhalt">
+
+<section class="hero" aria-labelledby="hero-titel">
+  <picture class="hero__bild">
+    <source media="(max-width:760px)" srcset="img/werk-glaskante-hoch.webp">
+    <img src="img/werk-glaskante.webp" width="2000" height="1336" alt="Ein Mitarbeiter mit blauem Helm hebt im Werk Gronau eine Glasscheibe vom Schneidtisch. Die Kante der Scheibe läuft senkrecht durch das Bild." fetchpriority="high">
+  </picture>
+  <span class="hero__reflex" aria-hidden="true"></span>
+  <div class="innen hero__innen">
+    <h1 id="hero-titel"><span>Glas nach Maß.</span> <span>Gronau, seit 1959.</span></h1>
+    <p>Flachglas-Großhandel und Isolierglas-Fertigung für Fensterbauer, Schreiner, Glaser und Metallbauer.</p>
+  </div>
+</section>
+<div class="glaskante" aria-hidden="true"></div>
+
+<nav class="wege" aria-label="Schnelleinstieg">
+  <ul class="innen">
+    <li><a href="#anfrage" data-zweck="glas"><strong>Glas anfragen</strong><span>Aufbau, Maße, Stückzahl. Der Verkauf meldet sich.</span></a></li>
+    <li><a href="#produkte"><strong>Technische Daten</strong><span>Ug-Wert, g-Wert und Schalldämmung je Aufbau.</span></a></li>
+    <li><a href="#anfrage" data-zweck="le"><strong>Leistungserklärung nachfordern</strong><span>Mit den Nummern von Ihrem Lieferschein.</span></a></li>
+    <li><a href="karriere.html"><strong>Bei Gethke arbeiten</strong><span>4 offene Stellen, 4 Ausbildungsberufe.</span></a></li>
+  </ul>
+</nav>
+
+<section class="abschnitt" id="produkte" aria-labelledby="produkte-titel">
+  <div class="innen">
+    <h2 id="produkte-titel">Isolierglas nach Funktion</h2>
+    <p class="vorspann">Wählen Sie, was die Scheibe leisten soll. Sie sehen einen üblichen SANCO-Aufbau im Schnitt und seine Werte.</p>
+
+    <div class="finder">
+      <form class="finder__wahl" id="finder" aria-label="Glasaufbau wählen">
+        <fieldset>
+          <legend>Was soll das Glas leisten?</legend>
+          <div class="wahl" id="f-funktion"></div>
+        </fieldset>
+        <fieldset>
+          <legend>Verglasung</legend>
+          <div class="wahl" id="f-fach"></div>
+        </fieldset>
+        <fieldset>
+          <legend>Aufbau <small id="f-aufbau-hilfe"></small></legend>
+          <div class="wahl wahl--daten" id="f-aufbau"></div>
+        </fieldset>
+        <p class="finder__hinweis">Die Zahlen nennen die Dicken in Millimetern von außen nach innen, AR steht für Argon im Scheibenzwischenraum. Dies ist ein Auszug. Weitere Aufbauten, Krypton-Füllung und Kombinationen fertigen wir auf Anfrage.</p>
+        <p class="finder__kurz" id="f-kurz"><span><b id="f-kurz-name"></b><span id="f-kurz-wert"></span></span><a href="#aufbau">Schnitt ansehen</a></p>
+        <noscript><p class="finder__hinweis">Ohne JavaScript: Die Datenblätter finden Sie weiter unten bei <a href="#service">Unterlagen</a>.</p></noscript>
+      </form>
+
+      <div class="aufbau" id="aufbau" aria-live="polite">
+        <div class="aufbau__titel">
+          <h3 id="a-name">SANCO Plus EN</h3>
+          <span class="zahl" id="a-formel">4 – 16 AR – 4</span>
+        </div>
+        <div class="schnitt" role="img" aria-labelledby="a-beschreibung">
+          <div class="schnitt__seiten"><span>außen</span><span>innen</span></div>
+          <div class="schnitt__kette" id="a-kette"></div>
+          <div class="schnitt__lagen" id="a-lagen"></div>
+          <p class="schnitt__gesamt">Elementdicke <b id="a-dicke">24 mm</b></p>
+        </div>
+        <p class="sr" id="a-beschreibung"></p>
+        <dl class="werte" id="a-werte"></dl>
+        <div class="aufbau__fuss">
+          <a class="knopf" href="#anfrage" id="a-anfragen" data-zweck="glas">Diesen Aufbau anfragen</a>
+          <a id="a-pdf" href="https://gethke.de/www.gethke.de/contero/gallery/Downloads/wm_db_002_sanco_plus_en.pdf">Datenblatt als PDF</a>
+        </div>
+        <p class="aufbau__quelle" id="a-quelle"></p>
+      </div>
+    </div>
+
+    <div class="weitere">
+      <div>
+        <h3>SANCO Control</h3>
+        <p>Jalousie im Scheibenzwischenraum. Geschützt vor Schmutz und Wind, bedient per Kordel, Schiebemagnet oder Motor.</p>
+      </div>
+      <div>
+        <h3>Solargussglas</h3>
+        <p>Eisenoxidarme Gläser für Hersteller von Sonnenkollektoren, in Deutschland und den Nachbarländern.</p>
+      </div>
+      <div>
+        <h3>Hitzebeständiges Glas</h3>
+        <p>Für Kaminofenbauer und Hersteller von Heizkassetten, zum Beispiel Neoceram.</p>
+      </div>
+      <div>
+        <h3>Handel</h3>
+        <p>Duschen, Türen, Beschläge, Spiegel, Gussglas und Spezial-Isolierglas wie Alarm- und Panzerglas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="abschnitt abschnitt--grau" id="leistung" aria-labelledby="leistung-titel">
+  <div class="innen">
+    <h2 id="leistung-titel">Vom Basisglas bis auf den Bock</h2>
+    <p class="vorspann">Zuschnitt, Veredelung, Isolierglas und Auslieferung liegen in Gronau unter einem Dach. So läuft Ihre Scheibe durch das Werk.</p>
+    <div class="fertigung">
+      <ol class="stationen">
+        <li><h3>Zuschnitt</h3><p>Float- und Low-E-Glas rechnergesteuert, Verbundsicherheitsglas bis <b>4.600 mm</b>.</p></li>
+        <li><h3>Schleiferei</h3><p>Geschliffene Kanten bis <b>19 mm</b> Glasdicke, Gehrung von <b>0° bis 60°</b>.</p></li>
+        <li><h3>Isolierglas-Fertigung</h3><p>Scheiben bis <b>2.700 × 5.000 mm</b>, Gasfüllung und Versiegelung automatisch. Kleine Formate laufen über eine eigene Linie.</p></li>
+        <li><h3>Sonderformen</h3><p>Modellscheiben, kreisrunde Isoliergläser, Rahmen und Sprossen, Bleiverglasung in Handarbeit.</p></li>
+        <li><h3>Qualitätskontrolle</h3><p>Jede Scheibe wird an der Visitierstation durchleuchtet. Fremdüberwacht durch ift Rosenheim und KIWA/KOMO.</p></li>
+        <li><h3>Lager und Versand</h3><p>Großes Guss-, Glas- und Spiegellager. Verladen wird in mehreren Schichten, am Tag und in der Nacht.</p></li>
+      </ol>
+      <div class="fertigung__bilder">
+        <figure>
+          <img src="img/werk-linie.webp" width="1400" height="933" loading="lazy" alt="Eine Mitarbeiterin führt an der Isolierglas-Linie eine Scheibe in die Presse.">
+        </figure>
+        <figure>
+          <img src="img/werk-halle.webp" width="1400" height="933" loading="lazy" alt="Blick in die Halle: Glasscheiben stehen auf Transportgestellen bereit.">
+          <figcaption>Fotos: Werk Gronau</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="abschnitt" id="lieferung" aria-labelledby="lieferung-titel">
+  <div class="innen lieferung">
+    <div>
+      <h2 id="lieferung-titel">Mit eigenen Lkw bis vor Ihr Tor</h2>
+      <p class="vorspann">Wir liefern im Umkreis von rund 170 km um Gronau, auf Wunsch auch weiter. Weil viel Glas auf Lager steht, sind eilige Bestellungen oft schon am nächsten Tag unterwegs.</p>
+      <dl class="kennzahlen">
+        <div><dt>Eigene Lkw und Anhänger</dt><dd>20 + 9</dd></div>
+        <div><dt>Isolierglas am Tag</dt><dd>bis 2.500 Scheiben</dd></div>
+        <div><dt>Isolierglas im Jahr</dt><dd>ca. 500.000 m²</dd></div>
+      </dl>
+      <p class="nl" lang="nl">Ook in Nederland leveren wij met eigen vrachtwagens. Verkoop Nederland: <a class="zahl" href="tel:+4925627006181">+49 2562 7006-181</a></p>
+    </div>
+    <figure class="karte">
+      <svg viewBox="96 22 408 422" role="img" aria-labelledby="karte-titel karte-text">
+        <title id="karte-titel">Liefergebiet</title>
+        <desc id="karte-text">Kreis mit rund 170 Kilometern Radius um Gronau. Darin liegen unter anderem Münster, Osnabrück, Dortmund, Düsseldorf, Köln, Bielefeld, Oldenburg, Bremen sowie Zwolle, Arnhem, Utrecht und Groningen.</desc>
+        <circle cx="300" cy="250" r="170" fill="#EDF5F3" stroke="#2B8C7F" stroke-width="2"/>
+        <circle cx="300" cy="250" r="85" fill="none" stroke="#2B8C7F" stroke-width="1" stroke-dasharray="2 5" opacity=".7"/>
+        <!-- Maßkette für den Radius, wie in einer Werkzeichnung -->
+        <g stroke="#0E2433" stroke-width="1.1" fill="none">
+          <line x1="300" y1="240" x2="300" y2="44" stroke-dasharray="3 4" opacity=".55"/>
+          <line x1="470" y1="250" x2="470" y2="44" stroke-dasharray="3 4" opacity=".55"/>
+          <line x1="300" y1="52" x2="470" y2="52"/>
+          <line x1="296" y1="56" x2="304" y2="48"/><line x1="466" y1="56" x2="474" y2="48"/>
+        </g>
+        <text x="385" y="43" font-size="16" font-weight="600" fill="#0E2433" text-anchor="middle">ca. 170 km</text>
+        <g font-size="14.5" fill="#0E2433">
+          <g>
+            <circle cx="342" cy="278" r="3.2"/><text x="335" y="290" text-anchor="end">Münster</text>
+            <circle cx="370" cy="242" r="3.2"/><text x="377" y="247">Osnabrück</text>
+            <circle cx="331" cy="327" r="3.2"/><text x="338" y="332">Dortmund</text>
+            <circle cx="403" cy="271" r="3.2"/><text x="410" y="276">Bielefeld</text>
+            <circle cx="296" cy="390" r="3.2"/><text x="303" y="395">Köln</text>
+            <circle cx="284" cy="358" r="3.2"/><text x="291" y="363">Düsseldorf</text>
+            <circle cx="381" cy="147" r="3.2"/><text x="374" y="141" text-anchor="end">Oldenburg</text>
+            <circle cx="421" cy="154" r="3.2"/><text x="414" y="172">Bremen</text>
+            <circle cx="320" cy="216" r="3.2"/><text x="327" y="213">Lingen</text>
+          </g>
+          <g fill="#fff" stroke="#0E2433" stroke-width="1.6">
+            <circle cx="236" cy="216" r="3.2"/><circle cx="224" cy="275" r="3.2"/><circle cx="170" cy="263" r="3.2"/><circle cx="269" cy="138" r="3.2"/>
+          </g>
+          <g text-anchor="end">
+            <text x="229" y="213">Zwolle</text><text x="217" y="291">Arnhem</text><text x="163" y="259">Utrecht</text><text x="262" y="134">Groningen</text>
+          </g>
+        </g>
+        <rect x="293" y="243" width="14" height="14" fill="#0057B8"/>
+        <text x="288" y="255" font-size="16" font-weight="600" fill="#0057B8" text-anchor="end">Gronau</text>
+      </svg>
+      <figcaption class="sr">Gefüllte Punkte: Deutschland. Offene Punkte: Niederlande.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="abschnitt abschnitt--grau" id="service" aria-labelledby="service-titel">
+  <div class="innen">
+    <h2 id="service-titel">Unterlagen und Ansprechpartner</h2>
+    <div class="service">
+      <div>
+        <h3>Unterlagen</h3>
+        <ul class="unterlagen" style="margin-top:16px">
+          <li><a href="https://gethke.de/www.gethke.de/contero/gallery/Downloads/verglasungsrichtlinie_isoglas.pdf">Verglasungsrichtlinie SANCO Isolierglas <span>PDF</span></a></li>
+          <li><a href="https://gethke.de/www.gethke.de/contero/gallery/Downloads/richtlinie09.pdf">Richtlinie zur visuellen Qualität von Isolierglas <span>PDF</span></a></li>
+          <li><a href="https://gethke.de/www.gethke.de/contero/gallery/Downloads/leitfaden_3fach_isolierglas.pdf">Leitfaden 3-fach-Isolierglas <span>PDF</span></a></li>
+          <li><a href="https://gethke.de/www.gethke.de/contero/gallery/Downloads/glasreinigung.pdf">Merkblatt Glasreinigung <span>PDF</span></a></li>
+          <li><a href="https://gethke.de/www.gethke.de/contero/gallery/Downloads/deutschlandes_zertifikat.pdf">CE-Konformitätszertifikat <span>PDF</span></a></li>
+          <li><a href="https://gethke.de/www.gethke.de/contero/gallery/Downloads/deutscheagb02.pdf">Allgemeine Geschäftsbedingungen <span>PDF</span></a></li>
+          <li><a href="https://gethke.de/www.gethke.de/contero/gallery/Downloads/niederlaendischeagb021.pdf" hreflang="nl"><span lang="nl" style="font-family:inherit;color:inherit">Algemene voorwaarden</span> <span>PDF, NL</span></a></li>
+          <li><a href="https://gethke.de/www.gethke.de/contero/gallery/Downloads/niederlande_zertifikat.pdf" hreflang="nl"><span lang="nl" style="font-family:inherit;color:inherit">CE-certificaat</span> <span>PDF, NL</span></a></li>
+        </ul>
+        <p class="kontakte__hinweis" style="margin-top:18px">Leistungserklärung verlegt? <a href="#anfrage" data-zweck="le">Hier fordern Sie sie nach.</a> Fragen zum Maut- und Energiekostenzuschlag beantwortet Ihr Ansprechpartner im Verkauf.</p>
+      </div>
+
+      <div class="kontakte">
+        <h3 id="kontakte-titel">Wen möchten Sie erreichen?</h3>
+        <div class="wahl" id="k-gruppen" role="radiogroup" aria-labelledby="kontakte-titel"></div>
+        <ul class="kontakte__liste" id="k-liste" aria-live="polite"></ul>
+        <p class="kontakte__hinweis">Zentrale: <a class="zahl" href="tel:+49256270060">02562 7006-0</a>. Bestellungen per E-Mail an <a href="mailto:bestellung@gethke.de">bestellung@gethke.de</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="glaskante" aria-hidden="true"></div>
+<section class="dunkel band" aria-labelledby="band-titel">
+  <div class="band__bild"><img src="img/werk-scheibe.webp" width="1400" height="935" loading="lazy" alt="Ein Mitarbeiter im schwarzen Gethke-Shirt stellt eine große Glasscheibe an ein Gestell."></div>
+  <div class="band__text">
+    <h2 id="band-titel">Wir stellen ein</h2>
+    <p>Rund 120 Kolleginnen und Kollegen arbeiten im Werk Gronau. Wer dazukommen möchte, bewirbt sich in zwei Minuten, ohne Anschreiben.</p>
+    <ul class="stellenliste">
+      <li><a href="karriere.html?stelle=produktion#bewerben">Produktionsmitarbeiter (m/w/d)</a></li>
+      <li><a href="karriere.html?stelle=lkw#bewerben">Lkw-Fahrer im Nahverkehr (m/w/d)</a></li>
+      <li><a href="karriere.html?stelle=lager#bewerben">Fachkraft für Lagerlogistik (m/w/d)</a></li>
+      <li><a href="karriere.html?stelle=elektro#bewerben">Elektroniker Betriebstechnik (m/w/d)</a></li>
+      <li><a href="karriere.html#ausbildung">Ausbildung ab 1. August 2027 <span>4 Berufe</span></a></li>
+    </ul>
+    <a class="knopf knopf--weiss" href="karriere.html">Zur Karriereseite</a>
+  </div>
+</section>
+
+<section class="abschnitt" id="anfrage" aria-labelledby="anfrage-titel">
+  <div class="innen">
+    <h2 id="anfrage-titel">Anfrage an Gethke</h2>
+    <div class="anfrage">
+      <div>
+        <form class="formular" id="anfrageform" novalidate>
+          <fieldset>
+            <legend>Worum geht es?</legend>
+            <div class="wahl">
+              <label><input type="radio" name="zweck" value="glas" checked><span>Glas anfragen</span></label>
+              <label><input type="radio" name="zweck" value="le"><span>Leistungserklärung nachfordern</span></label>
+              <label><input type="radio" name="zweck" value="sonst"><span>Etwas anderes</span></label>
+            </div>
+          </fieldset>
+
+          <div data-fuer="glas">
+            <div class="feld">
+              <label for="an-was">Was brauchen Sie?</label>
+              <p class="hilfe" id="an-was-h">Zum Beispiel Aufbau, Maße und Stückzahl. Eine Liste können Sie auch nachreichen.</p>
+              <textarea id="an-was" name="was" aria-describedby="an-was-h"></textarea>
+            </div>
+            <div class="paar">
+              <div class="feld"><label for="an-termin">Wunschtermin <small>(Angabe optional)</small></label><input id="an-termin" name="termin" type="date"></div>
+              <div class="feld"><label for="an-firma">Firma <small>(Angabe optional)</small></label><input id="an-firma" name="firma" autocomplete="organization"></div>
+            </div>
+          </div>
+
+          <div data-fuer="le" hidden>
+            <div class="paar">
+              <div class="feld"><label for="an-auftrag">Auftrags- oder Ordernummer</label><input id="an-auftrag" name="auftrag" inputmode="numeric"></div>
+              <div class="feld"><label for="an-le">Nummer der Leistungserklärung</label><input id="an-le" name="le" aria-describedby="an-le-h"></div>
+            </div>
+            <p class="hilfe" id="an-le-h" style="margin:-8px 0 20px;color:var(--tinte-2)">Beide Nummern stehen auf Ihrem Lieferschein, zum Beispiel <span class="zahl">559025_53_1_LE.pdf Pos. 2</span>.</p>
+          </div>
+
+          <div data-fuer="sonst" hidden>
+            <div class="feld"><label for="an-text">Ihre Nachricht</label><textarea id="an-text" name="text"></textarea></div>
+          </div>
+
+          <div class="feld" id="an-rueck-feld">
+            <label for="an-rueck">Telefon oder E-Mail</label>
+            <p class="hilfe" id="an-rueck-h">Damit wir antworten können. Eins von beiden genügt.</p>
+            <input id="an-rueck" name="rueck" autocomplete="email" aria-describedby="an-rueck-h an-rueck-f" required>
+            <p class="fehler" id="an-rueck-f">Bitte tragen Sie eine Telefonnummer oder eine E-Mail-Adresse ein.</p>
+          </div>
+          <div class="feld"><label for="an-name">Name <small>(Angabe optional)</small></label><input id="an-name" name="name" autocomplete="name"></div>
+
+          <div class="formular__fuss">
+            <button class="knopf" type="submit">Anfrage senden</button>
+            <p>Entwurf: Es wird nichts versendet.</p>
+          </div>
+        </form>
+        <div class="erfolg" id="anfrage-erfolg" tabindex="-1" hidden>
+          <h3>Das war ein Test. Es wurde nichts gesendet.</h3>
+          <p id="anfrage-erfolg-text"></p>
+          <button class="knopf knopf--hell" type="button" id="anfrage-neu">Neue Anfrage</button>
+        </div>
+      </div>
+
+      <div class="direkt">
+        <h3>Lieber direkt?</h3>
+        <a class="gross" href="tel:+49256270060">02562 7006-0</a>
+        <dl>
+          <dt>Bestellungen</dt><dd><a href="mailto:bestellung@gethke.de">bestellung@gethke.de</a></dd>
+          <dt>Leistungserklärungen</dt><dd><a href="mailto:lek@gethke.de">lek@gethke.de</a></dd>
+          <dt>Anschrift</dt><dd>Düppelstraße 10, 48599 Gronau<br><a href="https://www.google.com/maps/dir/?api=1&amp;destination=D%C3%BCppelstra%C3%9Fe+10%2C+48599+Gronau" rel="noopener">Route planen</a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<div class="glaskante" aria-hidden="true"></div>
+<footer class="fuss">
+  <div class="innen fuss__innen">
+    <div>
+      <span class="fuss__logo"><img src="img/logo-gethke.png" width="1080" height="350" alt="Gethke Glas Gronau GmbH" loading="lazy"></span>
+      <address>Gethke Glas Gronau GmbH<br>Düppelstraße 10, 48599 Gronau<br><a href="tel:+49256270060">02562 7006-0</a>, <a href="mailto:info@gethke.de">info@gethke.de</a></address>
+    </div>
+    <div>
+      <h2>Seiten</h2>
+      <ul>
+        <li><a href="#produkte">Produkte</a></li>
+        <li><a href="#leistung">Fertigung</a></li>
+        <li><a href="#lieferung">Lieferung</a></li>
+        <li><a href="karriere.html">Karriere</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Rechtliches</h2>
+      <ul>
+        <li><a href="impressum.html">Impressum</a></li>
+        <li><a href="datenschutz.html">Datenschutz</a></li>
+        <li><a href="barrierefreiheit.html">Barrierefreiheit</a></li>
+      </ul>
+      <p style="margin-top:14px">SANCO ist ein Warenzeichen.</p>
+    </div>
+  </div>
+  <div class="innen entwurf">
+    <p><strong>Unverbindlicher Entwurf von Leon Oßendorf, kein offizieller Auftritt der Gethke Glas Gronau GmbH.</strong> Texte, Zahlen, Fotos und Logo stammen von <a href="https://gethke.de/">gethke.de</a> und <a href="https://www.karriere-gethke-gronau.de/produktionsmitarbeiter">karriere-gethke-gronau.de</a>. Formulare senden nichts.</p>
+  </div>
+</footer>
+
+<script src="js/site.js?v=1" defer></script>
+</body>
+</html>

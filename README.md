@@ -1,2 +1,2 @@
 # entwurf-39
-Entwurf (Vorrat)
+Unverbindlicher Entwurf von Leon Oßendorf für die Gethke Glas Gronau GmbH. Kein offizieller Auftritt. Nicht für Suchmaschinen (noindex).
